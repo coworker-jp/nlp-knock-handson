@@ -21,3 +21,8 @@ class PreProcessorTest(TestCase):
         ]
         expected = (expected_texts, expected_labels)
         self.assertEqual(actual, expected)
+
+    def test_is_stop_word(self):
+        preprocessor = PreProcessor()
+        actual = preprocessor.is_stop_word('a')
+        self.assertTrue(actual)
