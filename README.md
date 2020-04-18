@@ -20,4 +20,5 @@
 
 ## セットアップ
 1. PyChamの機能を使うなどして、このディレクトリに `venv` ディレクトリを作成 (Pythonのバージョンは3系)
-2. `venv/bin/jupyter notebook jupyter/ch8.ipynb`
+2. `venv/bin/pip install -e .`
+3. `venv/bin/jupyter notebook jupyter/ch8.ipynb`
