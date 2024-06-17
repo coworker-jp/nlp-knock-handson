@@ -7,7 +7,7 @@ setup(
         'jupyter==1.0.0',
         'nltk==3.5',
         'pytest==5.3.3',
-        'scikit-learn==0.22.1',
+        'scikit-learn==1.5.0',
         'matplotlib==3.2.1',
     ],
     # extras_require={
